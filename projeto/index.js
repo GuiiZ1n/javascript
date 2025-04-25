@@ -19,12 +19,17 @@ const b = "10";
 */
 console.log(a != b && typeof a == 'string');
 
-let cor = "verde";
+let cor = "azul";
+
 if (cor === "verde") {
 
-    console.log("siga")
+    console.log("siga");
 
-} else {
+} else  if (cor === "amarelo") {
     
-    console.log("pare")
+    console.log("atenção");
+
+}    else if (cor === "vermelho") {
+
+    console.log("pare");
 };
